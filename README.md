@@ -16,6 +16,24 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Collections data (single source of truth)
+
+Collections content lives in [data/collections.json](data/collections.json). The UI consumes it via [data/products.js](data/products.js), which imports the JSON and exports a UI-compatible `collections` array.
+
+Example (Next.js App Router page):
+
+```js
+import { collections } from "@/data/products";
+import { notFound } from "next/navigation";
+
+export default function Page({ params }) {
+	const collection = collections.find((c) => c.slug === params.slug);
+	if (!collection) notFound();
+
+	return <h1>{collection.name}</h1>;
+}
+```
+
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.

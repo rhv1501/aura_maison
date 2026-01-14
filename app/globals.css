@@ -1,26 +1,83 @@
 @import "tailwindcss";
+@source "./app/**/*.{js,jsx,ts,tsx,mdx}" "./components/**/*.{js,jsx,ts,tsx,mdx}" "./data/**/*.{js,jsx,ts,tsx,mdx}";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Brand */
+  --primary: #7a6a2f;
+  --secondary: #6f6448;
+  --tertiary: #556b3c;
+
+  /* Surfaces */
+  --surface: #fbf6ef;
+  --background: var(--surface);
+  --background-dark: var(--secondary-container);
+
+  /* Containers */
+  --primary-container: #d4c184;
+  --secondary-container: #efe4c4;
+  --tertiary-container: #b7cf9a;
+
+  /* Text / Foreground */
+  --on-surface: #1c1b18;
+  --on-surface-variant: #4a463c;
+  --on-primary-container: #5a4a10;
+  --on-secondary-container: #6b5e3f;
+  --on-tertiary-container: #3f4f22;
+
+  /* Borders */
+  --border: #c9c1b6;
+  --outline: #8e887c;
+  --border-light: var(--secondary-container);
+
+  /* Accent */
+  --accent: var(--primary);
+  --accent-light: var(--secondary-container);
+
+  /* Legacy aliases (do not rename; keep UI stable) */
+  --text-main: var(--on-surface);
+  --text-secondary: var(--on-surface-variant);
+  --text-muted: var(--outline);
+  --primary-dark: var(--secondary);
+  --primary-light: var(--primary-container);
+
+  /* Product colors (mapped to palette roles) */
+  --sand-beige: var(--secondary-container);
+  --charcoal: var(--on-surface);
+  --terracotta: var(--primary);
+  --sage-green: var(--tertiary);
+  --stone-grey: var(--border);
+  --matte-white: var(--surface);
+  --clay-brown: var(--secondary);
+  --dusty-rose: var(--primary-container);
+
+  /* Semantic colors (mapped to palette roles) */
+  --success: var(--tertiary);
+  --error: var(--secondary);
+  --warning: var(--primary);
+
+  /* Shadows */
+  --shadow-sm: none;
+  --shadow-md: none;
+  --shadow-lg: none;
 }
 
 @theme inline {
   --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-foreground: var(--on-surface);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--on-surface);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", sans-serif;
+  line-height: 1.6;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }

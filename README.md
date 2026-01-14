@@ -27,10 +27,10 @@ import { collections } from "@/data/products";
 import { notFound } from "next/navigation";
 
 export default function Page({ params }) {
-	const collection = collections.find((c) => c.slug === params.slug);
-	if (!collection) notFound();
+  const collection = collections.find((c) => c.slug === params.slug);
+  if (!collection) notFound();
 
-	return <h1>{collection.name}</h1>;
+  return <h1>{collection.name}</h1>;
 }
 ```
 

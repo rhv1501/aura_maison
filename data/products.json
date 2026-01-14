@@ -200,11 +200,7 @@
       "Natural wood-like texture",
       "Durable for outdoor use"
     ],
-    "worksBestIn": [
-      "Balconies",
-      "Gardens",
-      "Indoor plant corners"
-    ],
+    "worksBestIn": ["Balconies", "Gardens", "Indoor plant corners"],
     "careInstructions": [
       "Rinse gently if used outdoors",
       "Allow to dry completely"
@@ -233,15 +229,8 @@
       "Matte earthy finish",
       "Lightweight sculptural form"
     ],
-    "worksBestIn": [
-      "Earth-toned interiors",
-      "Living rooms",
-      "Boutique spaces"
-    ],
-    "careInstructions": [
-      "Dust with dry cloth",
-      "Indoor placement recommended"
-    ]
+    "worksBestIn": ["Earth-toned interiors", "Living rooms", "Boutique spaces"],
+    "careInstructions": ["Dust with dry cloth", "Indoor placement recommended"]
   },
   {
     "name": "Barile",
@@ -266,11 +255,7 @@
       "Textured rustic finish",
       "Weather-tolerant build"
     ],
-    "worksBestIn": [
-      "Gardens",
-      "Outdoor patios",
-      "Landscape décor"
-    ],
+    "worksBestIn": ["Gardens", "Outdoor patios", "Landscape décor"],
     "careInstructions": [
       "Rinse gently if exposed to dust",
       "Safe for outdoor use"
@@ -299,15 +284,8 @@
       "Strong structural form",
       "Landscape-grade durability"
     ],
-    "worksBestIn": [
-      "Outdoor gardens",
-      "Courtyards",
-      "Resort landscapes"
-    ],
-    "careInstructions": [
-      "Hose clean when needed",
-      "Allow natural aging"
-    ]
+    "worksBestIn": ["Outdoor gardens", "Courtyards", "Resort landscapes"],
+    "careInstructions": ["Hose clean when needed", "Allow natural aging"]
   },
   {
     "name": "Aqvilon",
@@ -337,10 +315,7 @@
       "Luxury interiors",
       "Art-focused spaces"
     ],
-    "careInstructions": [
-      "Dust gently",
-      "Avoid moisture exposure"
-    ]
+    "careInstructions": ["Dust gently", "Avoid moisture exposure"]
   },
   {
     "name": "Pietrano",
@@ -365,14 +340,8 @@
       "Heavy visual presence",
       "Sculptural décor form"
     ],
-    "worksBestIn": [
-      "Earthy interiors",
-      "Contemporary homes"
-    ],
-    "careInstructions": [
-      "Dry wipe only",
-      "Indoor placement advised"
-    ]
+    "worksBestIn": ["Earthy interiors", "Contemporary homes"],
+    "careInstructions": ["Dry wipe only", "Indoor placement advised"]
   },
   {
     "name": "Lunara",
@@ -397,15 +366,8 @@
       "Matte stone finish",
       "Minimal aesthetic"
     ],
-    "worksBestIn": [
-      "Minimal interiors",
-      "Bedrooms",
-      "Calm living spaces"
-    ],
-    "careInstructions": [
-      "Dust regularly",
-      "Avoid abrasives"
-    ]
+    "worksBestIn": ["Minimal interiors", "Bedrooms", "Calm living spaces"],
+    "careInstructions": ["Dust regularly", "Avoid abrasives"]
   },
   {
     "name": "Drael",
@@ -430,14 +392,8 @@
       "Textured surface detailing",
       "Statement décor piece"
     ],
-    "worksBestIn": [
-      "Designer interiors",
-      "Luxury living spaces"
-    ],
-    "careInstructions": [
-      "Wipe with dry cloth",
-      "Indoor use only"
-    ]
+    "worksBestIn": ["Designer interiors", "Luxury living spaces"],
+    "careInstructions": ["Wipe with dry cloth", "Indoor use only"]
   },
   {
     "name": "Ignara",
@@ -462,14 +418,8 @@
       "Bold visual depth",
       "Premium surface finish"
     ],
-    "worksBestIn": [
-      "Modern interiors",
-      "Statement décor corners"
-    ],
-    "careInstructions": [
-      "Dry clean only",
-      "Avoid moisture"
-    ]
+    "worksBestIn": ["Modern interiors", "Statement décor corners"],
+    "careInstructions": ["Dry clean only", "Avoid moisture"]
   },
   {
     "name": "Ariste",
@@ -494,14 +444,8 @@
       "Balanced sculptural proportions",
       "Decorative vase"
     ],
-    "worksBestIn": [
-      "Classic-modern interiors",
-      "Luxury homes"
-    ],
-    "careInstructions": [
-      "Wipe gently",
-      "Indoor placement"
-    ]
+    "worksBestIn": ["Classic-modern interiors", "Luxury homes"],
+    "careInstructions": ["Wipe gently", "Indoor placement"]
   },
   {
     "name": "Argenta",
@@ -526,14 +470,8 @@
       "Refined surface texture",
       "Interior décor use"
     ],
-    "worksBestIn": [
-      "Luxury foyers",
-      "Hotel interiors"
-    ],
-    "careInstructions": [
-      "Dry wipe only",
-      "Avoid outdoor exposure"
-    ]
+    "worksBestIn": ["Luxury foyers", "Hotel interiors"],
+    "careInstructions": ["Dry wipe only", "Avoid outdoor exposure"]
   },
   {
     "name": "Merine",
@@ -558,14 +496,8 @@
       "Smooth refined finish",
       "Interior décor focus"
     ],
-    "worksBestIn": [
-      "Modern homes",
-      "Designer spaces"
-    ],
-    "careInstructions": [
-      "Dust regularly",
-      "Indoor use"
-    ]
+    "worksBestIn": ["Modern homes", "Designer spaces"],
+    "careInstructions": ["Dust regularly", "Indoor use"]
   },
   {
     "name": "Labirinto",
@@ -590,14 +522,8 @@
       "Refined texture",
       "Interior décor object"
     ],
-    "worksBestIn": [
-      "Art-focused interiors",
-      "Statement shelves"
-    ],
-    "careInstructions": [
-      "Dry clean",
-      "Avoid moisture"
-    ]
+    "worksBestIn": ["Art-focused interiors", "Statement shelves"],
+    "careInstructions": ["Dry clean", "Avoid moisture"]
   },
   {
     "name": "Lyora",
@@ -622,14 +548,8 @@
       "Smooth surface finish",
       "Lightweight structure"
     ],
-    "worksBestIn": [
-      "Shelves",
-      "Side tables"
-    ],
-    "careInstructions": [
-      "Wipe gently",
-      "Indoor use"
-    ]
+    "worksBestIn": ["Shelves", "Side tables"],
+    "careInstructions": ["Wipe gently", "Indoor use"]
   },
   {
     "name": "Noxen",
@@ -654,14 +574,8 @@
       "Strong visual presence",
       "Interior planter"
     ],
-    "worksBestIn": [
-      "Modern interiors",
-      "Luxury living rooms"
-    ],
-    "careInstructions": [
-      "Dry wipe",
-      "Indoor placement"
-    ]
+    "worksBestIn": ["Modern interiors", "Luxury living rooms"],
+    "careInstructions": ["Dry wipe", "Indoor placement"]
   },
   {
     "name": "Chetak",
@@ -686,14 +600,8 @@
       "Sculptural statement design",
       "Interior décor object"
     ],
-    "worksBestIn": [
-      "Expansive interiors",
-      "Luxury foyers"
-    ],
-    "careInstructions": [
-      "Dust regularly",
-      "Indoor use"
-    ]
+    "worksBestIn": ["Expansive interiors", "Luxury foyers"],
+    "careInstructions": ["Dust regularly", "Indoor use"]
   },
   {
     "name": "Avana",
@@ -718,14 +626,8 @@
       "Smooth refined surface",
       "Interior décor planter"
     ],
-    "worksBestIn": [
-      "Minimal interiors",
-      "Contemporary homes"
-    ],
-    "careInstructions": [
-      "Dry wipe",
-      "Indoor placement"
-    ]
+    "worksBestIn": ["Minimal interiors", "Contemporary homes"],
+    "careInstructions": ["Dry wipe", "Indoor placement"]
   },
   {
     "name": "Bucephalus",
@@ -750,14 +652,8 @@
       "Sculptural statement design",
       "Interior décor focus"
     ],
-    "worksBestIn": [
-      "Luxury interiors",
-      "Art-centric spaces"
-    ],
-    "careInstructions": [
-      "Dry wipe only",
-      "Indoor use"
-    ]
+    "worksBestIn": ["Luxury interiors", "Art-centric spaces"],
+    "careInstructions": ["Dry wipe only", "Indoor use"]
   },
   {
     "name": "Stryde",
@@ -782,14 +678,8 @@
       "Refined surface finish",
       "Interior planter"
     ],
-    "worksBestIn": [
-      "Modern interiors",
-      "Designer apartments"
-    ],
-    "careInstructions": [
-      "Dust regularly",
-      "Indoor placement"
-    ]
+    "worksBestIn": ["Modern interiors", "Designer apartments"],
+    "careInstructions": ["Dust regularly", "Indoor placement"]
   },
   {
     "name": "Elysia",
@@ -814,14 +704,8 @@
       "Smooth premium finish",
       "Interior décor object"
     ],
-    "worksBestIn": [
-      "Modern luxury interiors",
-      "Calm living spaces"
-    ],
-    "careInstructions": [
-      "Wipe gently",
-      "Indoor use only"
-    ]
+    "worksBestIn": ["Modern luxury interiors", "Calm living spaces"],
+    "careInstructions": ["Wipe gently", "Indoor use only"]
   },
   {
     "name": "Terrone",
@@ -846,14 +730,8 @@
       "Heavy visual depth",
       "Indoor-outdoor durability"
     ],
-    "worksBestIn": [
-      "Outdoor courtyards",
-      "Luxury patios"
-    ],
-    "careInstructions": [
-      "Rinse if outdoors",
-      "Allow natural aging"
-    ]
+    "worksBestIn": ["Outdoor courtyards", "Luxury patios"],
+    "careInstructions": ["Rinse if outdoors", "Allow natural aging"]
   },
   {
     "name": "Carbone",
@@ -878,14 +756,8 @@
       "Strong structural form",
       "Indoor-outdoor usage"
     ],
-    "worksBestIn": [
-      "Outdoor spaces",
-      "Bold interior corners"
-    ],
-    "careInstructions": [
-      "Clean with damp cloth",
-      "Outdoor safe"
-    ]
+    "worksBestIn": ["Outdoor spaces", "Bold interior corners"],
+    "careInstructions": ["Clean with damp cloth", "Outdoor safe"]
   },
   {
     "name": "Orlive",
@@ -910,14 +782,8 @@
       "Refined elegant form",
       "Interior décor object"
     ],
-    "worksBestIn": [
-      "Modern interiors",
-      "Designer shelves"
-    ],
-    "careInstructions": [
-      "Wipe gently",
-      "Indoor use"
-    ]
+    "worksBestIn": ["Modern interiors", "Designer shelves"],
+    "careInstructions": ["Wipe gently", "Indoor use"]
   },
   {
     "name": "Orvea",
@@ -942,14 +808,8 @@
       "Smooth refined surface",
       "Decorative planter"
     ],
-    "worksBestIn": [
-      "Luxury interiors",
-      "Accent tables"
-    ],
-    "careInstructions": [
-      "Handle with care",
-      "Indoor placement"
-    ]
+    "worksBestIn": ["Luxury interiors", "Accent tables"],
+    "careInstructions": ["Handle with care", "Indoor placement"]
   },
   {
     "name": "Celven",
@@ -974,14 +834,8 @@
       "Compact decorative form",
       "Interior décor use"
     ],
-    "worksBestIn": [
-      "Shelves",
-      "Side tables"
-    ],
-    "careInstructions": [
-      "Wipe gently",
-      "Avoid impact"
-    ]
+    "worksBestIn": ["Shelves", "Side tables"],
+    "careInstructions": ["Wipe gently", "Avoid impact"]
   },
   {
     "name": "Orian",
@@ -1006,13 +860,7 @@
       "Polished surface",
       "Interior décor use"
     ],
-    "worksBestIn": [
-      "Modern homes",
-      "Tabletop décor"
-    ],
-    "careInstructions": [
-      "Clean with soft cloth",
-      "Indoor use"
-    ]
+    "worksBestIn": ["Modern homes", "Tabletop décor"],
+    "careInstructions": ["Clean with soft cloth", "Indoor use"]
   }
 ]

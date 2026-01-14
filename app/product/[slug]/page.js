@@ -3,7 +3,7 @@ import ProductDetailClient from "@/components/ProductDetailClient";
 import { notFound } from "next/navigation";
 
 export default async function ProductPage({ params }) {
-  const {slug} = await params;
+  const { slug } = await params;
   const product = products.find((p) => p.slug === slug);
 
   if (!product) notFound();

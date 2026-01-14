@@ -104,8 +104,7 @@ export default function ProductDetailClient({ product }) {
         {variants.length > 0 && (
           <div className="mb-8">
             <p className="text-sm font-medium mb-2">
-              Colour:{" "}
-              <span className="font-normal">{selectedColorName}</span>
+              Colour: <span className="font-normal">{selectedColorName}</span>
             </p>
 
             <div className="flex gap-3">

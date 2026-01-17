@@ -1,6 +1,14 @@
 import { products } from "@/data/products";
+import { collections } from "@/data/products";
+import dynamic from "next/dynamic";
 import ProductCard from "@/components/ProductCard";
-import Link from "next/link";
+
+const CollectionCategorySlider = dynamic(
+  () => import("@/components/CollectionCategorySlider"),
+  {
+    loading: () => <div className="mt-10 mb-10 h-10" />,
+  }
+);
 
 export default function Shop() {
   return (
@@ -13,28 +21,9 @@ export default function Shop() {
           <p className="text-lg text-[var(--on-surface-variant)] max-w-3xl">
             Browse the full catalog, or filter by space.
           </p>
-
-          <div className="mt-8 flex flex-wrap gap-3">
-            <Link
-              href="/shop/indoor"
-              className="inline-flex items-center justify-center rounded border border-[var(--border)] bg-[var(--surface)] px-5 py-3 text-sm font-medium text-[var(--on-surface)] hover:shadow-[var(--shadow-sm)] transition-all duration-200"
-            >
-              Indoor
-            </Link>
-            <Link
-              href="/shop/dual-space"
-              className="inline-flex items-center justify-center rounded border border-[var(--border)] bg-[var(--surface)] px-5 py-3 text-sm font-medium text-[var(--on-surface)] hover:shadow-[var(--shadow-sm)] transition-all duration-200"
-            >
-              Dual-Space
-            </Link>
-            <Link
-              href="/collections"
-              className="inline-flex items-center justify-center rounded bg-[var(--primary)] px-5 py-3 text-sm font-medium text-[var(--surface)] hover:bg-[var(--secondary)] transition-colors duration-200"
-            >
-              View Collections
-            </Link>
-          </div>
         </div>
+
+        <CollectionCategorySlider collections={collections} />
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {products.map((product) => (

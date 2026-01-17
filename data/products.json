@@ -6,7 +6,11 @@
     "collection": "LuxeSheen",
     "description": "A bold luxury floor vase designed to create an instant statement with height, elegance, and refined metallic detailing.",
     "material": "Magnesium based polyresin",
-    "sizes": ["Small", "Medium", "Large"],
+    "sizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
     "variants": [
       {
         "id": "lysandra-black",
@@ -14,7 +18,7 @@
         "colorName": "Black with Gold Accents",
         "cssVar": "--primary",
         "finish": "Gloss metallic texture",
-        "image": "/products/lysandra/black.jpg"
+        "image": "/collection/luxesheen/lysandra/black.jpg"
       },
       {
         "id": "lysandra-white",
@@ -22,7 +26,7 @@
         "colorName": "White with Gold Accents",
         "cssVar": "--surface",
         "finish": "Matte with metallic detailing",
-        "image": "/products/lysandra/white.jpg"
+        "image": "/collection/luxesheen/lysandra/white.png"
       }
     ],
     "specifications": [
@@ -49,7 +53,10 @@
     "collection": "LuxeSheen",
     "description": "A tall statement vase crafted to enhance visual depth and refined modern sophistication with sculptural form and gold detailing.",
     "material": "Magnesium based polyresin",
-    "sizes": ["Medium", "Large"],
+    "sizes": [
+      "Medium",
+      "Large"
+    ],
     "variants": [
       {
         "id": "orovivo-white",
@@ -57,7 +64,7 @@
         "colorName": "White",
         "cssVar": "--surface",
         "finish": "Textured gold detailing",
-        "image": "/products/orovivo/white.jpg"
+        "image": "/collection/luxesheen/orovivo/white.jpg"
       },
       {
         "id": "orovivo-black",
@@ -65,7 +72,7 @@
         "colorName": "Black",
         "cssVar": "--primary",
         "finish": "Cascading gold patterns",
-        "image": "/products/orovivo/black.jpg"
+        "image": "/collection/luxesheen/orovivo/black.jpg"
       }
     ],
     "specifications": [
@@ -96,7 +103,10 @@
     "collection": "Earthcast",
     "description": "A sleek contemporary planter with a refined silhouette, designed for both indoor and outdoor luxury décor.",
     "material": "Magnesium based clayfiber",
-    "sizes": ["Medium", "Large"],
+    "sizes": [
+      "Medium",
+      "Large"
+    ],
     "variants": [
       {
         "id": "ombra-glossy",
@@ -104,7 +114,7 @@
         "colorName": "Glossy Black",
         "cssVar": "--on-surface",
         "finish": "High-gloss finish",
-        "image": "/products/ombra/glossy.jpg"
+        "image": "/collection/earthcast/ombra/glossy.jpg"
       },
       {
         "id": "ombra-matte",
@@ -112,7 +122,7 @@
         "colorName": "Matte Black",
         "cssVar": "--on-surface",
         "finish": "Soft matte finish",
-        "image": "/products/ombra/matte.jpg"
+        "image": "/collection/earthcast/ombra/matte.jpg"
       }
     ],
     "specifications": [
@@ -138,7 +148,10 @@
     "collection": "Earthcast",
     "description": "A versatile premium planter with a refined earthy finish, designed for both interior styling and covered outdoor settings.",
     "material": "Magnesium based clay fiber",
-    "sizes": ["Small", "Medium"],
+    "sizes": [
+      "Small",
+      "Medium"
+    ],
     "variants": [
       {
         "id": "ecrue-black",
@@ -146,7 +159,7 @@
         "colorName": "Black",
         "cssVar": "--on-surface",
         "finish": "Neutral earthy finish",
-        "image": "/products/ecrue/black.jpg"
+        "image": "/collection/earthcast/ecrue/black.jpeg"
       },
       {
         "id": "ecrue-white",
@@ -154,7 +167,7 @@
         "colorName": "White",
         "cssVar": "--surface",
         "finish": "Soft neutral finish",
-        "image": "/products/ecrue/white.jpg"
+        "image": "/collection/earthcast/ecrue/white.jpeg"
       }
     ],
     "specifications": [
@@ -184,7 +197,10 @@
     "collection": "TimberCraft",
     "description": "A wood-textured cylindrical planter that brings warmth and organic charm to both indoor and outdoor spaces.",
     "material": "Magnesium based clay fiber",
-    "sizes": ["Medium", "Large"],
+    "sizes": [
+      "Medium",
+      "Large"
+    ],
     "variants": [
       {
         "id": "bosco-main",
@@ -192,7 +208,7 @@
         "colorName": "Natural Wood",
         "cssVar": "--tertiary",
         "finish": "",
-        "image": "/products/bosco/main.jpg"
+        "image": "/collection/timbercraft/bosco.png"
       }
     ],
     "specifications": [
@@ -200,7 +216,11 @@
       "Natural wood-like texture",
       "Durable for outdoor use"
     ],
-    "worksBestIn": ["Balconies", "Gardens", "Indoor plant corners"],
+    "worksBestIn": [
+      "Balconies",
+      "Gardens",
+      "Indoor plant corners"
+    ],
     "careInstructions": [
       "Rinse gently if used outdoors",
       "Allow to dry completely"
@@ -213,7 +233,10 @@
     "collection": "TimberCraft",
     "description": "Inspired by natural wood textures, Terrae blends earthy tones with organic elegance for rustic yet refined interior styling.",
     "material": "Magnesium based polyresin",
-    "sizes": ["Medium", "Large"],
+    "sizes": [
+      "Medium",
+      "Large"
+    ],
     "variants": [
       {
         "id": "terrae-main",
@@ -221,7 +244,7 @@
         "colorName": "Earth Brown",
         "cssVar": "--tertiary",
         "finish": "Matte earthy finish",
-        "image": "/products/terrae/main.jpg"
+        "image": "/collection/timbercraft/terrae.png"
       }
     ],
     "specifications": [
@@ -229,8 +252,15 @@
       "Matte earthy finish",
       "Lightweight sculptural form"
     ],
-    "worksBestIn": ["Earth-toned interiors", "Living rooms", "Boutique spaces"],
-    "careInstructions": ["Dust with dry cloth", "Indoor placement recommended"]
+    "worksBestIn": [
+      "Earth-toned interiors",
+      "Living rooms",
+      "Boutique spaces"
+    ],
+    "careInstructions": [
+      "Dust with dry cloth",
+      "Indoor placement recommended"
+    ]
   },
   {
     "name": "Barile",
@@ -239,7 +269,10 @@
     "collection": "TimberCraft",
     "description": "A barrel-inspired decorative planter designed for rustic elegance and premium outdoor styling with handcrafted character.",
     "material": "Magnesium based clay fiber",
-    "sizes": ["Medium", "Large"],
+    "sizes": [
+      "Medium",
+      "Large"
+    ],
     "variants": [
       {
         "id": "barile-main",
@@ -247,7 +280,7 @@
         "colorName": "Rustic Brown",
         "cssVar": "--secondary",
         "finish": "Textured rustic finish",
-        "image": "/products/barile/main.jpg"
+        "image": "/collection/timbercraft/barile.png"
       }
     ],
     "specifications": [
@@ -255,7 +288,11 @@
       "Textured rustic finish",
       "Weather-tolerant build"
     ],
-    "worksBestIn": ["Gardens", "Outdoor patios", "Landscape décor"],
+    "worksBestIn": [
+      "Gardens",
+      "Outdoor patios",
+      "Landscape décor"
+    ],
     "careInstructions": [
       "Rinse gently if exposed to dust",
       "Safe for outdoor use"
@@ -268,7 +305,10 @@
     "collection": "TimberCraft",
     "description": "A rustic planter crafted for landscape décor and premium outdoor environments, adding raw charm and visual warmth.",
     "material": "Magnesium based clay fiber",
-    "sizes": ["Medium", "Large"],
+    "sizes": [
+      "Medium",
+      "Large"
+    ],
     "variants": [
       {
         "id": "botaccio-main",
@@ -276,7 +316,7 @@
         "colorName": "Natural Clay",
         "cssVar": "--outline",
         "finish": "Rugged earthy texture",
-        "image": "/products/botaccio/main.jpg"
+        "image": "/collection/timbercraft/botaccio.png"
       }
     ],
     "specifications": [
@@ -284,8 +324,15 @@
       "Strong structural form",
       "Landscape-grade durability"
     ],
-    "worksBestIn": ["Outdoor gardens", "Courtyards", "Resort landscapes"],
-    "careInstructions": ["Hose clean when needed", "Allow natural aging"]
+    "worksBestIn": [
+      "Outdoor gardens",
+      "Courtyards",
+      "Resort landscapes"
+    ],
+    "careInstructions": [
+      "Hose clean when needed",
+      "Allow natural aging"
+    ]
   },
   {
     "name": "Aqvilon",
@@ -294,7 +341,10 @@
     "collection": "Earthcast",
     "description": "A sculptural vase with wave-inspired textures that creates fluid artistic depth for statement interiors.",
     "material": "Magnesium based polyresin",
-    "sizes": ["Medium", "Large"],
+    "sizes": [
+      "Medium",
+      "Large"
+    ],
     "variants": [
       {
         "id": "aqvilon-main",
@@ -302,7 +352,7 @@
         "colorName": "Stone Grey",
         "cssVar": "--outline",
         "finish": "",
-        "image": "/products/aqvilon/main.jpg"
+        "image": "/collection/earthcast/aqvilon.png"
       }
     ],
     "specifications": [
@@ -315,7 +365,10 @@
       "Luxury interiors",
       "Art-focused spaces"
     ],
-    "careInstructions": ["Dust gently", "Avoid moisture exposure"]
+    "careInstructions": [
+      "Dust gently",
+      "Avoid moisture exposure"
+    ]
   },
   {
     "name": "Pietrano",
@@ -324,7 +377,9 @@
     "collection": "Earthcast",
     "description": "Featuring a rugged stone-inspired finish, Pietrano delivers raw elegance for earthy modern décor themes.",
     "material": "Magnesium based polyresin",
-    "sizes": ["Medium"],
+    "sizes": [
+      "Medium"
+    ],
     "variants": [
       {
         "id": "pietrano-main",
@@ -332,7 +387,7 @@
         "colorName": "Stone Texture",
         "cssVar": "--outline",
         "finish": "",
-        "image": "/products/pietrano/main.jpg"
+        "image": "/collection/earthcast/pietrano.png"
       }
     ],
     "specifications": [
@@ -340,8 +395,14 @@
       "Heavy visual presence",
       "Sculptural décor form"
     ],
-    "worksBestIn": ["Earthy interiors", "Contemporary homes"],
-    "careInstructions": ["Dry wipe only", "Indoor placement advised"]
+    "worksBestIn": [
+      "Earthy interiors",
+      "Contemporary homes"
+    ],
+    "careInstructions": [
+      "Dry wipe only",
+      "Indoor placement advised"
+    ]
   },
   {
     "name": "Lunara",
@@ -350,7 +411,9 @@
     "collection": "Earthcast",
     "description": "A softly curved designer vase with a matte stone finish, ideal for understated luxury environments.",
     "material": "Magnesium based polyresin",
-    "sizes": ["Medium"],
+    "sizes": [
+      "Medium"
+    ],
     "variants": [
       {
         "id": "lunara-main",
@@ -358,7 +421,7 @@
         "colorName": "Matte Stone",
         "cssVar": "--surface",
         "finish": "Matte stone finish",
-        "image": "/products/lunara/main.jpg"
+        "image": "/collection/earthcast/lunara.jpg"
       }
     ],
     "specifications": [
@@ -366,8 +429,15 @@
       "Matte stone finish",
       "Minimal aesthetic"
     ],
-    "worksBestIn": ["Minimal interiors", "Bedrooms", "Calm living spaces"],
-    "careInstructions": ["Dust regularly", "Avoid abrasives"]
+    "worksBestIn": [
+      "Minimal interiors",
+      "Bedrooms",
+      "Calm living spaces"
+    ],
+    "careInstructions": [
+      "Dust regularly",
+      "Avoid abrasives"
+    ]
   },
   {
     "name": "Drael",
@@ -376,7 +446,9 @@
     "collection": "Earthcast",
     "description": "A twisted textured vase crafted for bold artistic expression and strong statement styling.",
     "material": "Magnesium based polyresin",
-    "sizes": ["Large"],
+    "sizes": [
+      "Large"
+    ],
     "variants": [
       {
         "id": "drael-main",
@@ -384,7 +456,7 @@
         "colorName": "Textured Grey",
         "cssVar": "--outline",
         "finish": "Textured surface detailing",
-        "image": "/products/drael/main.jpg"
+        "image": "/collection/earthcast/drael.jpg"
       }
     ],
     "specifications": [
@@ -392,8 +464,14 @@
       "Textured surface detailing",
       "Statement décor piece"
     ],
-    "worksBestIn": ["Designer interiors", "Luxury living spaces"],
-    "careInstructions": ["Wipe with dry cloth", "Indoor use only"]
+    "worksBestIn": [
+      "Designer interiors",
+      "Luxury living spaces"
+    ],
+    "careInstructions": [
+      "Wipe with dry cloth",
+      "Indoor use only"
+    ]
   },
   {
     "name": "Ignara",
@@ -402,7 +480,10 @@
     "collection": "Earthcast",
     "description": "Inspired by lava stone aesthetics, Ignara adds raw yet sophisticated charm to modern interiors.",
     "material": "Magnesium based polyresin",
-    "sizes": ["Medium", "Large"],
+    "sizes": [
+      "Medium",
+      "Large"
+    ],
     "variants": [
       {
         "id": "ignara-main",
@@ -410,7 +491,7 @@
         "colorName": "Lava Black",
         "cssVar": "--on-surface",
         "finish": "Lava-inspired texture",
-        "image": "/products/ignara/main.jpg"
+        "image": "/collection/earthcast/ignara.jpg"
       }
     ],
     "specifications": [
@@ -418,8 +499,14 @@
       "Bold visual depth",
       "Premium surface finish"
     ],
-    "worksBestIn": ["Modern interiors", "Statement décor corners"],
-    "careInstructions": ["Dry clean only", "Avoid moisture"]
+    "worksBestIn": [
+      "Modern interiors",
+      "Statement décor corners"
+    ],
+    "careInstructions": [
+      "Dry clean only",
+      "Avoid moisture"
+    ]
   },
   {
     "name": "Ariste",
@@ -428,7 +515,9 @@
     "collection": "Earthcast",
     "description": "A dual-texture vase blending classic elegance with modern luxury styling.",
     "material": "Magnesium based polyresin",
-    "sizes": ["Medium"],
+    "sizes": [
+      "Medium"
+    ],
     "variants": [
       {
         "id": "ariste-main",
@@ -436,7 +525,7 @@
         "colorName": "Neutral Stone",
         "cssVar": "--outline",
         "finish": "Dual surface texture",
-        "image": "/products/ariste/main.jpg"
+        "image": "/collection/earthcast/ariste.png"
       }
     ],
     "specifications": [
@@ -444,8 +533,14 @@
       "Balanced sculptural proportions",
       "Decorative vase"
     ],
-    "worksBestIn": ["Classic-modern interiors", "Luxury homes"],
-    "careInstructions": ["Wipe gently", "Indoor placement"]
+    "worksBestIn": [
+      "Classic-modern interiors",
+      "Luxury homes"
+    ],
+    "careInstructions": [
+      "Wipe gently",
+      "Indoor placement"
+    ]
   },
   {
     "name": "Argenta",
@@ -454,7 +549,9 @@
     "collection": "Earthcast",
     "description": "A tall sculptural vase crafted for luxury interior focal points with refined elegance.",
     "material": "Magnesium based polyresin",
-    "sizes": ["Large"],
+    "sizes": [
+      "Large"
+    ],
     "variants": [
       {
         "id": "argenta-main",
@@ -462,7 +559,7 @@
         "colorName": "Silver Grey",
         "cssVar": "--outline",
         "finish": "Refined surface texture",
-        "image": "/products/argenta/main.jpg"
+        "image": "/collection/earthcast/argenta.png"
       }
     ],
     "specifications": [
@@ -470,8 +567,14 @@
       "Refined surface texture",
       "Interior décor use"
     ],
-    "worksBestIn": ["Luxury foyers", "Hotel interiors"],
-    "careInstructions": ["Dry wipe only", "Avoid outdoor exposure"]
+    "worksBestIn": [
+      "Luxury foyers",
+      "Hotel interiors"
+    ],
+    "careInstructions": [
+      "Dry wipe only",
+      "Avoid outdoor exposure"
+    ]
   },
   {
     "name": "Merine",
@@ -480,7 +583,9 @@
     "collection": "Earthcast",
     "description": "A sleek cylindrical decorative vase adding vertical sophistication to premium interiors.",
     "material": "Magnesium based polyresin",
-    "sizes": ["Large"],
+    "sizes": [
+      "Large"
+    ],
     "variants": [
       {
         "id": "merine-main",
@@ -488,7 +593,7 @@
         "colorName": "Neutral Grey",
         "cssVar": "--outline",
         "finish": "Smooth refined finish",
-        "image": "/products/merine/main.jpg"
+        "image": "/collection/earthcast/merine.jpeg"
       }
     ],
     "specifications": [
@@ -496,8 +601,14 @@
       "Smooth refined finish",
       "Interior décor focus"
     ],
-    "worksBestIn": ["Modern homes", "Designer spaces"],
-    "careInstructions": ["Dust regularly", "Indoor use"]
+    "worksBestIn": [
+      "Modern homes",
+      "Designer spaces"
+    ],
+    "careInstructions": [
+      "Dust regularly",
+      "Indoor use"
+    ]
   },
   {
     "name": "Labirinto",
@@ -506,7 +617,9 @@
     "collection": "Earthcast",
     "description": "A unique sculptural vase enhancing visual intrigue with artistic form and refined durability.",
     "material": "Magnesium based polyresin",
-    "sizes": ["Medium"],
+    "sizes": [
+      "Medium"
+    ],
     "variants": [
       {
         "id": "labirinto-main",
@@ -514,7 +627,7 @@
         "colorName": "Stone Finish",
         "cssVar": "--outline",
         "finish": "Refined texture",
-        "image": "/products/labirinto/main.jpg"
+        "image": "/collection/earthcast/labirinto.png"
       }
     ],
     "specifications": [
@@ -522,8 +635,14 @@
       "Refined texture",
       "Interior décor object"
     ],
-    "worksBestIn": ["Art-focused interiors", "Statement shelves"],
-    "careInstructions": ["Dry clean", "Avoid moisture"]
+    "worksBestIn": [
+      "Art-focused interiors",
+      "Statement shelves"
+    ],
+    "careInstructions": [
+      "Dry clean",
+      "Avoid moisture"
+    ]
   },
   {
     "name": "Lyora",
@@ -532,7 +651,9 @@
     "collection": "Earthcast",
     "description": "A compact decorative vase crafted for elegant modern styling.",
     "material": "Magnesium based clay fiber",
-    "sizes": ["Small"],
+    "sizes": [
+      "Small"
+    ],
     "variants": [
       {
         "id": "lyora-main",
@@ -540,7 +661,7 @@
         "colorName": "Soft Neutral",
         "cssVar": "--surface",
         "finish": "Smooth surface finish",
-        "image": "/products/lyora/main.jpg"
+        "image": "/collection/earthcast/lyora.png"
       }
     ],
     "specifications": [
@@ -548,8 +669,14 @@
       "Smooth surface finish",
       "Lightweight structure"
     ],
-    "worksBestIn": ["Shelves", "Side tables"],
-    "careInstructions": ["Wipe gently", "Indoor use"]
+    "worksBestIn": [
+      "Shelves",
+      "Side tables"
+    ],
+    "careInstructions": [
+      "Wipe gently",
+      "Indoor use"
+    ]
   },
   {
     "name": "Noxen",
@@ -558,7 +685,10 @@
     "collection": "Earthcast",
     "description": "A bold modern planter crafted for premium interiors with contemporary strength.",
     "material": "Magnesium based polyresin",
-    "sizes": ["Medium", "Large"],
+    "sizes": [
+      "Medium",
+      "Large"
+    ],
     "variants": [
       {
         "id": "noxen-main",
@@ -566,7 +696,7 @@
         "colorName": "Deep Black",
         "cssVar": "--on-surface",
         "finish": "",
-        "image": "/products/noxen/main.jpg"
+        "image": "/collection/earthcast/noxen.png"
       }
     ],
     "specifications": [
@@ -574,8 +704,14 @@
       "Strong visual presence",
       "Interior planter"
     ],
-    "worksBestIn": ["Modern interiors", "Luxury living rooms"],
-    "careInstructions": ["Dry wipe", "Indoor placement"]
+    "worksBestIn": [
+      "Modern interiors",
+      "Luxury living rooms"
+    ],
+    "careInstructions": [
+      "Dry wipe",
+      "Indoor placement"
+    ]
   },
   {
     "name": "Chetak",
@@ -584,7 +720,9 @@
     "collection": "Earthcast",
     "description": "A grand décor piece crafted for visual dominance and architectural elegance.",
     "material": "Magnesium based polyresin",
-    "sizes": ["Large"],
+    "sizes": [
+      "Large"
+    ],
     "variants": [
       {
         "id": "chetak-main",
@@ -592,7 +730,7 @@
         "colorName": "Architectural Grey",
         "cssVar": "--outline",
         "finish": "",
-        "image": "/products/chetak/main.jpg"
+        "image": "/collection/earthcast/chetak.png"
       }
     ],
     "specifications": [
@@ -600,8 +738,14 @@
       "Sculptural statement design",
       "Interior décor object"
     ],
-    "worksBestIn": ["Expansive interiors", "Luxury foyers"],
-    "careInstructions": ["Dust regularly", "Indoor use"]
+    "worksBestIn": [
+      "Expansive interiors",
+      "Luxury foyers"
+    ],
+    "careInstructions": [
+      "Dust regularly",
+      "Indoor use"
+    ]
   },
   {
     "name": "Avana",
@@ -610,7 +754,9 @@
     "collection": "Earthcast",
     "description": "A refined minimal planter crafted for modern high-end interiors.",
     "material": "Magnesium based polyresin",
-    "sizes": ["Medium"],
+    "sizes": [
+      "Medium"
+    ],
     "variants": [
       {
         "id": "avana-main",
@@ -618,7 +764,7 @@
         "colorName": "Soft Grey",
         "cssVar": "--surface",
         "finish": "",
-        "image": "/products/avana/main.jpg"
+        "image": "/collection/earthcast/avana.jpg"
       }
     ],
     "specifications": [
@@ -626,8 +772,14 @@
       "Smooth refined surface",
       "Interior décor planter"
     ],
-    "worksBestIn": ["Minimal interiors", "Contemporary homes"],
-    "careInstructions": ["Dry wipe", "Indoor placement"]
+    "worksBestIn": [
+      "Minimal interiors",
+      "Contemporary homes"
+    ],
+    "careInstructions": [
+      "Dry wipe",
+      "Indoor placement"
+    ]
   },
   {
     "name": "Bucephalus",
@@ -636,7 +788,9 @@
     "collection": "Earthcast",
     "description": "A powerful sculptural décor piece designed for impactful luxury display.",
     "material": "Magnesium based polyresin",
-    "sizes": ["Large"],
+    "sizes": [
+      "Large"
+    ],
     "variants": [
       {
         "id": "bucephalus-main",
@@ -644,7 +798,7 @@
         "colorName": "Stone Grey",
         "cssVar": "--outline",
         "finish": "",
-        "image": "/products/bucephalus/main.jpg"
+        "image": "/collection/earthcast/bucephalus.png"
       }
     ],
     "specifications": [
@@ -652,8 +806,14 @@
       "Sculptural statement design",
       "Interior décor focus"
     ],
-    "worksBestIn": ["Luxury interiors", "Art-centric spaces"],
-    "careInstructions": ["Dry wipe only", "Indoor use"]
+    "worksBestIn": [
+      "Luxury interiors",
+      "Art-centric spaces"
+    ],
+    "careInstructions": [
+      "Dry wipe only",
+      "Indoor use"
+    ]
   },
   {
     "name": "Stryde",
@@ -662,7 +822,9 @@
     "collection": "Earthcast",
     "description": "A sleek modern décor planter ideal for contemporary premium environments.",
     "material": "Magnesium based polyresin",
-    "sizes": ["Medium"],
+    "sizes": [
+      "Medium"
+    ],
     "variants": [
       {
         "id": "stryde-main",
@@ -670,7 +832,7 @@
         "colorName": "Modern Grey",
         "cssVar": "--outline",
         "finish": "",
-        "image": "/products/stryde/main.jpg"
+        "image": "/collection/earthcast/stryde.jpeg"
       }
     ],
     "specifications": [
@@ -678,8 +840,14 @@
       "Refined surface finish",
       "Interior planter"
     ],
-    "worksBestIn": ["Modern interiors", "Designer apartments"],
-    "careInstructions": ["Dust regularly", "Indoor placement"]
+    "worksBestIn": [
+      "Modern interiors",
+      "Designer apartments"
+    ],
+    "careInstructions": [
+      "Dust regularly",
+      "Indoor placement"
+    ]
   },
   {
     "name": "Elysia",
@@ -688,7 +856,9 @@
     "collection": "Earthcast",
     "description": "A refined minimal décor piece crafted for modern luxury styling.",
     "material": "Magnesium based polyresin",
-    "sizes": ["Medium"],
+    "sizes": [
+      "Medium"
+    ],
     "variants": [
       {
         "id": "elysia-main",
@@ -696,7 +866,7 @@
         "colorName": "Neutral Stone",
         "cssVar": "--surface",
         "finish": "",
-        "image": "/products/elysia/main.jpg"
+        "image": "/collection/earthcast/elysia.png"
       }
     ],
     "specifications": [
@@ -704,8 +874,14 @@
       "Smooth premium finish",
       "Interior décor object"
     ],
-    "worksBestIn": ["Modern luxury interiors", "Calm living spaces"],
-    "careInstructions": ["Wipe gently", "Indoor use only"]
+    "worksBestIn": [
+      "Modern luxury interiors",
+      "Calm living spaces"
+    ],
+    "careInstructions": [
+      "Wipe gently",
+      "Indoor use only"
+    ]
   },
   {
     "name": "Terrone",
@@ -714,7 +890,9 @@
     "collection": "Earthcast",
     "description": "A bold sculptural planter crafted for powerful statement placements in premium spaces.",
     "material": "Magnesium based clayfiber",
-    "sizes": ["Large"],
+    "sizes": [
+      "Large"
+    ],
     "variants": [
       {
         "id": "terrone-main",
@@ -722,7 +900,7 @@
         "colorName": "Earth Brown",
         "cssVar": "--secondary",
         "finish": "",
-        "image": "/products/terrone/main.jpg"
+        "image": "/collection/earthcast/terrone.jpeg"
       }
     ],
     "specifications": [
@@ -730,8 +908,14 @@
       "Heavy visual depth",
       "Indoor-outdoor durability"
     ],
-    "worksBestIn": ["Outdoor courtyards", "Luxury patios"],
-    "careInstructions": ["Rinse if outdoors", "Allow natural aging"]
+    "worksBestIn": [
+      "Outdoor courtyards",
+      "Luxury patios"
+    ],
+    "careInstructions": [
+      "Rinse if outdoors",
+      "Allow natural aging"
+    ]
   },
   {
     "name": "Carbone",
@@ -740,7 +924,10 @@
     "collection": "Earthcast",
     "description": "A statement planter with rustic texture and strong visual presence for bold décor styling.",
     "material": "Magnesium based clay fiber",
-    "sizes": ["Medium", "Large"],
+    "sizes": [
+      "Medium",
+      "Large"
+    ],
     "variants": [
       {
         "id": "carbone-main",
@@ -748,7 +935,7 @@
         "colorName": "Charcoal Black",
         "cssVar": "--on-surface",
         "finish": "Rustic textured finish",
-        "image": "/products/carbone/main.jpg"
+        "image": "/collection/earthcast/carbone.png"
       }
     ],
     "specifications": [
@@ -756,8 +943,14 @@
       "Strong structural form",
       "Indoor-outdoor usage"
     ],
-    "worksBestIn": ["Outdoor spaces", "Bold interior corners"],
-    "careInstructions": ["Clean with damp cloth", "Outdoor safe"]
+    "worksBestIn": [
+      "Outdoor spaces",
+      "Bold interior corners"
+    ],
+    "careInstructions": [
+      "Clean with damp cloth",
+      "Outdoor safe"
+    ]
   },
   {
     "name": "Orlive",
@@ -766,7 +959,10 @@
     "collection": "MetalAura",
     "description": "A premium ceramic décor piece crafted for modern sophisticated interiors.",
     "material": "Ceramic",
-    "sizes": ["Small", "Medium"],
+    "sizes": [
+      "Small",
+      "Medium"
+    ],
     "variants": [
       {
         "id": "orlive-main",
@@ -774,7 +970,7 @@
         "colorName": "Ceramic White",
         "cssVar": "--surface",
         "finish": "",
-        "image": "/products/orlive/main.jpg"
+        "image": "/collection/metalaura/orlive.jpeg"
       }
     ],
     "specifications": [
@@ -782,8 +978,14 @@
       "Refined elegant form",
       "Interior décor object"
     ],
-    "worksBestIn": ["Modern interiors", "Designer shelves"],
-    "careInstructions": ["Wipe gently", "Indoor use"]
+    "worksBestIn": [
+      "Modern interiors",
+      "Designer shelves"
+    ],
+    "careInstructions": [
+      "Wipe gently",
+      "Indoor use"
+    ]
   },
   {
     "name": "Orvea",
@@ -792,7 +994,10 @@
     "collection": "MetalAura",
     "description": "A ceramic décor planter designed for modern luxury styling and artistic display.",
     "material": "Ceramic",
-    "sizes": ["Small", "Medium"],
+    "sizes": [
+      "Small",
+      "Medium"
+    ],
     "variants": [
       {
         "id": "orvea-main",
@@ -800,7 +1005,7 @@
         "colorName": "Neutral Ceramic",
         "cssVar": "--surface",
         "finish": "",
-        "image": "/products/orvea/main.jpg"
+        "image": "/collection/metalaura/orvea.jpeg"
       }
     ],
     "specifications": [
@@ -808,8 +1013,14 @@
       "Smooth refined surface",
       "Decorative planter"
     ],
-    "worksBestIn": ["Luxury interiors", "Accent tables"],
-    "careInstructions": ["Handle with care", "Indoor placement"]
+    "worksBestIn": [
+      "Luxury interiors",
+      "Accent tables"
+    ],
+    "careInstructions": [
+      "Handle with care",
+      "Indoor placement"
+    ]
   },
   {
     "name": "Celven",
@@ -818,7 +1029,9 @@
     "collection": "MetalAura",
     "description": "A compact ceramic décor piece with smooth glossy finish and refined elegance.",
     "material": "Ceramic",
-    "sizes": ["Small"],
+    "sizes": [
+      "Small"
+    ],
     "variants": [
       {
         "id": "celven-main",
@@ -826,7 +1039,7 @@
         "colorName": "Glossy Ceramic",
         "cssVar": "--surface",
         "finish": "Glossy finish",
-        "image": "/products/celven/main.jpg"
+        "image": "/collection/metalaura/celven.jpeg"
       }
     ],
     "specifications": [
@@ -834,8 +1047,14 @@
       "Compact decorative form",
       "Interior décor use"
     ],
-    "worksBestIn": ["Shelves", "Side tables"],
-    "careInstructions": ["Wipe gently", "Avoid impact"]
+    "worksBestIn": [
+      "Shelves",
+      "Side tables"
+    ],
+    "careInstructions": [
+      "Wipe gently",
+      "Avoid impact"
+    ]
   },
   {
     "name": "Orian",
@@ -844,7 +1063,9 @@
     "collection": "MetalAura",
     "description": "A compact ceramic planter designed for contemporary décor enhancement.",
     "material": "Ceramic",
-    "sizes": ["Small"],
+    "sizes": [
+      "Small"
+    ],
     "variants": [
       {
         "id": "orian-main",
@@ -852,7 +1073,7 @@
         "colorName": "Ceramic Neutral",
         "cssVar": "--surface",
         "finish": "",
-        "image": "/products/orian/main.jpg"
+        "image": "/collection/metalaura/orian.jpeg"
       }
     ],
     "specifications": [
@@ -860,7 +1081,13 @@
       "Polished surface",
       "Interior décor use"
     ],
-    "worksBestIn": ["Modern homes", "Tabletop décor"],
-    "careInstructions": ["Clean with soft cloth", "Indoor use"]
+    "worksBestIn": [
+      "Modern homes",
+      "Tabletop décor"
+    ],
+    "careInstructions": [
+      "Clean with soft cloth",
+      "Indoor use"
+    ]
   }
 ]

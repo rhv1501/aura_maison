@@ -1,7 +1,13 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import dynamic from "next/dynamic";
+
+const Navbar = dynamic(() => import("@/components/Navbar"), {
+  loading: () => (
+    <div className="h-14 sm:h-16 border-b border-[var(--border)] bg-[var(--surface)]" />
+  ),
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

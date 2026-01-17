@@ -1,12 +1,26 @@
-"use client";
+import dynamic from "next/dynamic";
+import Image from "next/image";
 
-import EnquiryForm from "@/components/EnquiryForm";
-import { useSearchParams } from "next/navigation";
-import { Suspense } from "react";
+const EnquiryForm = dynamic(() => import("@/components/EnquiryForm"), {
+  loading: () => (
+    <div className="py-12 text-center">
+      <p className="text-[var(--on-surface-variant)] text-sm">Loading…</p>
+    </div>
+  ),
+});
 
-function ContactContent() {
-  const searchParams = useSearchParams();
-  const productParam = searchParams.get("product") || "";
+export default function Contact({ searchParams }) {
+  const productParam = searchParams?.product ?? "";
+
+  const contactPhoneDisplay = "+91-8939328000";
+  const contactPhoneHref = "tel:+918939328000";
+  const contactEmail = "info@hocc.in";
+  const contactAddress =
+    "First Floor, Ram Apartments, A7 & 8, Raja Annamaalai Rd, Purasaivakkam, Chennai, Tamil Nadu, 600084";
+  const mapSrc =
+    "https://www.google.com/maps?q=" +
+    encodeURIComponent(contactAddress) +
+    "&output=embed";
 
   return (
     <div className="py-16">
@@ -45,7 +59,9 @@ function ContactContent() {
               Email
             </h3>
             <p className="text-[var(--on-surface-variant)] text-sm">
-              hello@auramaison.com
+              <a href={`mailto:${contactEmail}`} className="underline">
+                {contactEmail}
+              </a>
             </p>
           </div>
 
@@ -69,7 +85,9 @@ function ContactContent() {
               Phone
             </h3>
             <p className="text-[var(--on-surface-variant)] text-sm">
-              +1 (555) 123-4567
+              <a href={contactPhoneHref} className="underline">
+                {contactPhoneDisplay}
+              </a>
             </p>
           </div>
 
@@ -90,10 +108,34 @@ function ContactContent() {
               </svg>
             </div>
             <h3 className="font-semibold text-[var(--on-surface)] mb-2">
-              Hours
+              Address
             </h3>
             <p className="text-[var(--on-surface-variant)] text-sm">
-              Mon-Fri: 9AM - 6PM
+              {contactAddress}
+            </p>
+          </div>
+        </div>
+
+        {/* Map */}
+        <div className="mb-16">
+          <div className="bg-[var(--surface)] border border-[var(--border)] rounded-lg overflow-hidden">
+            <div className="relative w-full aspect-[16/9]">
+              <iframe
+                title="Aura Maison location"
+                src={mapSrc}
+                className="absolute inset-0 h-full w-full"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                allowFullScreen
+              />
+            </div>
+          </div>
+
+          {/* Optional small note / logo lockup */}
+          <div className="mt-6 flex items-center justify-center gap-3 opacity-80">
+            <Image src="/logo-mark.svg" alt="Aurē Maison" width={22} height={22} />
+            <p className="text-sm text-[var(--on-surface-variant)]">
+              Visit us or send an enquiry — we’ll respond quickly.
             </p>
           </div>
         </div>
@@ -107,19 +149,5 @@ function ContactContent() {
         </div>
       </div>
     </div>
-  );
-}
-
-export default function Contact() {
-  return (
-    <Suspense
-      fallback={
-        <div className="py-16 text-center">
-          <p className="text-[var(--outline)]">Loading...</p>
-        </div>
-      }
-    >
-      <ContactContent />
-    </Suspense>
   );
 }

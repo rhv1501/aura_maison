@@ -1,9 +1,16 @@
-import { products } from "@/data/products";
+import { collections, products } from "@/data/products";
 import ProductCard from "@/components/ProductCard";
 import CollectionHero from "@/components/CollectionHero";
-import collections from "@/data/collections.json";
+import dynamic from "next/dynamic";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+
+const CollectionCategorySlider = dynamic(
+  () => import("@/components/CollectionCategorySlider"),
+  {
+    loading: () => <div className="mt-10 mb-10 h-10" />,
+  }
+);
 
 export default async function CollectionDetail({ params }) {
   const { slug } = await params;
@@ -56,6 +63,7 @@ export default async function CollectionDetail({ params }) {
 
       <div className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <CollectionCategorySlider collections={collections} />
           {collectionProducts.length > 0 ? (
             <>
               {/* Products Grid */}

@@ -77,27 +77,6 @@ export default function Footer() {
 
           <hr className="border-[var(--border)]" />
 
-          {/* Support */}
-          <div>
-            <h4 className="font-medium mb-2">Support & Info</h4>
-            <ul className="space-y-1">
-              <li>
-                <Link href="/info">Information</Link>
-              </li>
-              <li>
-                <Link href="/shipping">Shipping & Delivery</Link>
-              </li>
-              <li>
-                <Link href="/care">Care & Materials</Link>
-              </li>
-              <li>
-                <Link href="/faqs">FAQs</Link>
-              </li>
-            </ul>
-          </div>
-
-          <hr className="border-[var(--border)]" />
-
           {/* Trade */}
           <div>
             <h4 className="font-medium mb-2">Trade & Projects</h4>
@@ -193,24 +172,6 @@ export default function Footer() {
                         </Link>
                       </li>
                     ))}
-                  </ul>
-                </div>
-
-                <div className="pt-10 border-t border-[var(--border)]">
-                  <h4 className="font-medium mb-3">Support & Info</h4>
-                  <ul className="space-y-2 text-sm">
-                    <li>
-                      <Link href="/info">Information</Link>
-                    </li>
-                    <li>
-                      <Link href="/shipping">Shipping & Delivery</Link>
-                    </li>
-                    <li>
-                      <Link href="/care">Care & Materials</Link>
-                    </li>
-                    <li>
-                      <Link href="/faqs">FAQs</Link>
-                    </li>
                   </ul>
                 </div>
               </div>

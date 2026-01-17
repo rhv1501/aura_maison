@@ -1,5 +1,14 @@
 import { products } from "@/data/products";
 import ProductCard from "@/components/ProductCard";
+import { collections } from "@/data/products";
+import dynamic from "next/dynamic";
+
+const CollectionCategorySlider = dynamic(
+  () => import("@/components/CollectionCategorySlider"),
+  {
+    loading: () => <div className="mt-10 mb-10 h-10" />,
+  }
+);
 
 export default function IndoorPlanters() {
   const indoorProducts = products.filter(
@@ -20,6 +29,8 @@ export default function IndoorPlanters() {
             while complementing your décor.
           </p>
         </div>
+
+        <CollectionCategorySlider collections={collections} />
 
         {/* Products Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

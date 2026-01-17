@@ -6,8 +6,8 @@
     "title": "Luxesheen Collection",
     "description": "The LuxeSheen Collection brings together sculptural silhouettes and subtle metallic detail, creating objects that feel bold and composed. Designed to exist as art within a space, each piece introduces depth, contrast, and modern elegance without excess.",
     "type": "material",
-    "cardImage": "/collections/luxesheen/card.jpg",
-    "heroImage": "/collections/luxesheen/hero.jpg",
+    "cardImage": "/collection/luxesheen/card.jpg",
+    "heroImage": "/collection/luxesheen/hero.jpg",
     "ctaLabel": "Explore Luxesheen Collection"
   },
   {
@@ -17,8 +17,8 @@
     "title": "TimberCraft Collection",
     "description": "Rooted in natural textures and organic forms, the TimberCraft Collection draws inspiration from wood, earth, and handcrafted finishes. Each piece brings warmth, tactility, and grounded character to spaces that value natural expression.",
     "type": "material",
-    "cardImage": "/collections/timbercraft/card.jpg",
-    "heroImage": "/collections/timbercraft/hero.jpg",
+    "cardImage": "/collection/timbercraft/card.png",
+    "heroImage": "/collection/timbercraft/hero.png",
     "ctaLabel": "Explore TimberCraft Collection"
   },
   {
@@ -28,8 +28,8 @@
     "title": "Earthcast Collection",
     "description": "Inspired by stone, terrain, and raw sculptural form, the Earthcast Collection explores texture and weight through refined craftsmanship. Designed to feel grounded yet expressive, these pieces add depth and quiet strength to modern interiors.",
     "type": "material",
-    "cardImage": "/collections/earthcast/card.jpg",
-    "heroImage": "/collections/earthcast/hero.jpg",
+    "cardImage": "/collection/earthcast/card.png",
+    "heroImage": "/collection/earthcast/hero.png",
     "ctaLabel": "Explore Earthcast Collection"
   },
   {
@@ -39,8 +39,8 @@
     "title": "MetalAura Collection",
     "description": "Defined by sleek silhouettes and refined surfaces, the MetalAura Collection introduces subtle shine and contemporary precision. Crafted for modern interiors, each piece balances polish with restraint for a clean, elevated presence.",
     "type": "material",
-    "cardImage": "/collections/metalaura/card.jpg",
-    "heroImage": "/collections/metalaura/hero.jpg",
+    "cardImage": "/collection/metalaura/card.jpeg",
+    "heroImage": "/collection/metalaura/hero.jpeg",
     "ctaLabel": "Explore MetalAura Collection"
   },
   {
@@ -50,8 +50,8 @@
     "title": "Indoor Collection",
     "description": "Curated for interior spaces, this selection focuses on form, proportion, and refined detail. Designed to complement calm, considered environments, each piece enhances the space without overwhelming it.",
     "type": "space",
-    "cardImage": "/collections/indoor/card.jpg",
-    "heroImage": "/collections/indoor/hero.jpg",
+    "cardImage": "/collection/indoor/card.png",
+    "heroImage": "/collection/indoor/hero.png",
     "ctaLabel": "Explore Indoor Products"
   },
   {
@@ -61,8 +61,8 @@
     "title": "Dual-Space Collection",
     "description": "Designed to transition effortlessly between indoor and covered outdoor settings, the Dual-Space Collection balances durability with sculptural elegance. Refined enough for interiors, resilient enough for open air, each piece adapts seamlessly across spaces.",
     "type": "space",
-    "cardImage": "/collections/dual-space/card.jpg",
-    "heroImage": "/collections/dual-space/hero.jpg",
+    "cardImage": "/collection/dual-space/card.jpeg",
+    "heroImage": "/collection/dual-space/hero.jpeg",
     "ctaLabel": "Explore Outdoor Products"
   }
 ]

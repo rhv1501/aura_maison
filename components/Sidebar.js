@@ -201,8 +201,8 @@ export default function Sidebar({ isOpen, onClose }) {
                 src="/full.png"
                 alt="Aura Maison"
                 fill
-                sizes="280px"
-                className="object-contain scale-[2.6] origin-center drop-shadow-[0_1px_2px_rgba(0,0,0,0.25)]"
+                sizes="600px"
+                className="object-contain scale-[1.5] origin-center drop-shadow-[0_1px_2px_rgba(0,0,0,0.25)]"
               />
             </div>
           </Link>

@@ -115,8 +115,8 @@ export default function Footer() {
                 src="/full.png"
                 alt="Aura Maison"
                 fill
-                sizes="320px"
-                className="object-contain scale-[1.5] origin-center drop-shadow-[0_1px_2px_rgba(0,0,0,0.25)]"
+                sizes="600px"
+                className="object-contain scale-[1.6] origin-center"
               />
             </div>
           </div>
@@ -222,8 +222,8 @@ export default function Footer() {
                 src="/full.png"
                 alt="Aura Maison"
                 fill
-                sizes="360px"
-                className="object-contain scale-[1.5] origin-center drop-shadow-[0_1px_2px_rgba(0,0,0,0.25)]"
+                sizes="600px"
+                className="object-contain scale-[2.6] origin-center drop-shadow-[0_1px_2px_rgba(0,0,0,0.25)]"
               />
             </div>
           </div>

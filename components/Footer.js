@@ -116,7 +116,7 @@ export default function Footer() {
                 alt="Aura Maison"
                 fill
                 sizes="320px"
-                className="object-contain scale-[2.6] origin-center drop-shadow-[0_1px_2px_rgba(0,0,0,0.25)]"
+                className="object-contain scale-[2.0] origin-center drop-shadow-[0_1px_2px_rgba(0,0,0,0.25)]"
               />
             </div>
           </div>
@@ -227,7 +227,7 @@ export default function Footer() {
                 alt="Aura Maison"
                 fill
                 sizes="360px"
-                className="object-contain scale-[2.6] origin-center drop-shadow-[0_1px_2px_rgba(0,0,0,0.25)]"
+                className="object-contain scale-[2] origin-center drop-shadow-[0_1px_2px_rgba(0,0,0,0.25)]"
               />
             </div>
           </div>

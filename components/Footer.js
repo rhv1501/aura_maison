@@ -116,7 +116,7 @@ export default function Footer() {
                 alt="Aura Maison"
                 fill
                 sizes="320px"
-                className="object-contain scale-[2.0] origin-center drop-shadow-[0_1px_2px_rgba(0,0,0,0.25)]"
+                className="object-contain scale-[1.5] origin-center drop-shadow-[0_1px_2px_rgba(0,0,0,0.25)]"
               />
             </div>
           </div>
@@ -210,10 +210,6 @@ export default function Footer() {
                   </div>
                   <div className="text-xs opacity-70 space-y-2">
                     <p>© 2025 Aure Maison. All rights reserved.</p>
-                    <p>
-                      <Link href="/privacy">Privacy Policy</Link> ·{" "}
-                      <Link href="/terms">Terms of Use</Link>
-                    </p>
                   </div>
                 </div>
               </div>
@@ -227,7 +223,7 @@ export default function Footer() {
                 alt="Aura Maison"
                 fill
                 sizes="360px"
-                className="object-contain scale-[2] origin-center drop-shadow-[0_1px_2px_rgba(0,0,0,0.25)]"
+                className="object-contain scale-[1.5] origin-center drop-shadow-[0_1px_2px_rgba(0,0,0,0.25)]"
               />
             </div>
           </div>

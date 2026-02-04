@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 import { collections } from "@/data/products";
+import Image from "next/image";
 
 export default function Sidebar({ isOpen, onClose }) {
   const [shopOpen, setShopOpen] = useState(false);
@@ -193,13 +194,18 @@ export default function Sidebar({ isOpen, onClose }) {
         <div className="border-t border-[var(--border)] mx-6 my-8" />
 
         {/* Logo section */}
-        <div className="px-6 pb-8 flex flex-col items-center gap-3">
-          <span className="text-2xl font-light uppercase tracking-[0.35em] text-[var(--on-surface)] mb-2">
-            Aura Maison
-          </span>
-          <span className="text-xs font-light uppercase tracking-[0.25em] text-[var(--on-surface-variant)]">
-            AM
-          </span>
+        <div className="px-6 pb-8 flex justify-center">
+          <Link href="/" onClick={closeSidebar} aria-label="Home">
+            <div className="relative h-10 w-[220px]">
+              <Image
+                src="/full.png"
+                alt="Aura Maison"
+                fill
+                sizes="220px"
+                className="object-contain scale-[600%]"
+              />
+            </div>
+          </Link>
         </div>
       </div>
     </>

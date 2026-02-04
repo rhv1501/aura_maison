@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import Sidebar from "./Sidebar";
+import Image from "next/image";
 
 export default function Navbar() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -18,18 +19,30 @@ export default function Navbar() {
             {/* Left - Logo (extreme left) */}
             <div className="flex items-center flex-shrink-0 z-10">
               <Link href="/" className="flex items-center">
-                <span className="text-xs sm:text-sm font-light uppercase tracking-[0.25em] text-[var(--on-surface-variant)]">
-                  AM
-                </span>
+                <Image
+                  src="/logo.png"
+                  alt="Aura Maison"
+                  width={28}
+                  height={28}
+                  priority
+                  className="scale-[150%]"
+                />
               </Link>
             </div>
 
             {/* Center - Brand name (absolute center of viewport) */}
             <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-0">
               <Link href="/" className="flex items-center">
-                <span className="text-base sm:text-lg md:text-xl font-light tracking-[0.35em] uppercase text-[var(--on-surface)] whitespace-nowrap">
-                  Aura Maison
-                </span>
+                <div className="relative h-6 sm:h-7 w-[120px] sm:w-[140px]">
+                  <Image
+                    src="/write.png"
+                    alt="Aura Maison"
+                    fill
+                    sizes="(min-width: 640px) 140px, 120px"
+                    className="object-contain scale-[120%]"
+                    priority
+                  />
+                </div>
               </Link>
             </div>
 

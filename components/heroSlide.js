@@ -13,14 +13,14 @@ export default function HeroSlider() {
         type: "brand",
       },
       {
-        image: "/hero/slide-1.jpg",
+        image: "/1.jpeg",
         subtitle: "Where form meets calm, and spaces breathe.",
         title: "Aure Maison",
         cta: "Discover More",
         link: "/about",
       },
       {
-        image: "/collection/earthcast/noxen.png",
+        image: "/collection/earthcast/noxen-black.png",
         subtitle: "Designed to anchor a space.",
         title: "Noxen",
         cta: "Discover Earthcast Collection",
@@ -34,7 +34,7 @@ export default function HeroSlider() {
         link: "/collections/dual-space",
       },
     ],
-    []
+    [],
   );
 
   useEffect(() => {
@@ -58,14 +58,12 @@ export default function HeroSlider() {
           {slide.type === "brand" && (
             <div className="flex flex-col items-center justify-center h-full bg-[var(--background)] text-[var(--primary)]">
               <Image
-                src="/logo-mark.svg"
-                alt="Aurē Maison"
-                width={80}
-                height={80}
-                className="mb-4"
+                src="/full.png"
+                alt="Aura Maison"
+                fill
+                sizes="360px"
+                className="object-contain origin-center"
               />
-              <h1 className="text-lg font-serif">Aurē Maison</h1>
-              <p className="text-xs mt-1 italic">Curated. Crafted. Yours.</p>
             </div>
           )}
 

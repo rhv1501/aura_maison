@@ -1,9 +1,10 @@
 import Link from "next/link";
 import { collections } from "@/data/products";
+import Image from "next/image";
 
 export default function Footer() {
   const materialCollections = collections.filter(
-    (collection) => collection.type === "material"
+    (collection) => collection.type === "material",
   );
 
   return (
@@ -108,14 +109,16 @@ export default function Footer() {
           </div>
 
           {/* Brand Lockup */}
-          <div className="pt-10 text-center">
-            <img
-              src="/logo-mark.svg"
-              alt="Aura Maison"
-              className="mx-auto mb-3 h-10"
-            />
-            <p className="font-serif text-lg">Aurē Maison</p>
-            <p className="text-sm opacity-70">Curated. Crafted. Yours.</p>
+          <div className="px-6 pb-8 flex justify-center">
+            <div className="relative h-20 w-[320px] overflow-hidden">
+              <Image
+                src="/full.png"
+                alt="Aura Maison"
+                fill
+                sizes="320px"
+                className="object-contain scale-[2.6] origin-center drop-shadow-[0_1px_2px_rgba(0,0,0,0.25)]"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -217,14 +220,16 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="mt-16 pt-12 border-t border-[var(--border)] text-center">
-            <img
-              src="/logo-mark.svg"
-              alt="Aura Maison"
-              className="mx-auto mb-4 h-10"
-            />
-            <p className="font-serif text-2xl">Aurē Maison</p>
-            <p className="text-sm opacity-70 mt-2">Curated. Crafted. Yours.</p>
+          <div className="px-6 pb-8 flex justify-center">
+            <div className="relative h-20 w-[360px] overflow-hidden">
+              <Image
+                src="/full.png"
+                alt="Aura Maison"
+                fill
+                sizes="360px"
+                className="object-contain scale-[2.6] origin-center drop-shadow-[0_1px_2px_rgba(0,0,0,0.25)]"
+              />
+            </div>
           </div>
         </div>
       </div>

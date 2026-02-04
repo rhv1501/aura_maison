@@ -196,13 +196,13 @@ export default function Sidebar({ isOpen, onClose }) {
         {/* Logo section */}
         <div className="px-6 pb-8 flex justify-center">
           <Link href="/" onClick={closeSidebar} aria-label="Home">
-            <div className="relative h-10 w-[220px]">
+            <div className="relative h-16 w-[280px] overflow-hidden">
               <Image
                 src="/full.png"
                 alt="Aura Maison"
                 fill
-                sizes="220px"
-                className="object-contain scale-[600%]"
+                sizes="280px"
+                className="object-contain scale-[2.6] origin-center drop-shadow-[0_1px_2px_rgba(0,0,0,0.25)]"
               />
             </div>
           </Link>

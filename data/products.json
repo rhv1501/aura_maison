@@ -208,7 +208,7 @@
         "colorName": "Natural Wood",
         "cssVar": "--tertiary",
         "finish": "",
-        "image": "/collection/timbercraft/bosco.png"
+        "image": "/collection/timbercraft/bosco.jpeg"
       }
     ],
     "specifications": [
@@ -280,7 +280,7 @@
         "colorName": "Rustic Brown",
         "cssVar": "--secondary",
         "finish": "Textured rustic finish",
-        "image": "/collection/timbercraft/barile.png"
+        "image": "/collection/timbercraft/barile.jpeg"
       }
     ],
     "specifications": [
@@ -316,7 +316,7 @@
         "colorName": "Natural Clay",
         "cssVar": "--outline",
         "finish": "Rugged earthy texture",
-        "image": "/collection/timbercraft/botaccio.png"
+        "image": "/collection/timbercraft/botaccio.jpeg"
       }
     ],
     "specifications": [
@@ -421,7 +421,7 @@
         "colorName": "Matte Stone",
         "cssVar": "--surface",
         "finish": "Matte stone finish",
-        "image": "/collection/earthcast/lunara.jpg"
+        "image": "/collection/earthcast/lunara.png"
       }
     ],
     "specifications": [
@@ -491,7 +491,7 @@
         "colorName": "Lava Black",
         "cssVar": "--on-surface",
         "finish": "Lava-inspired texture",
-        "image": "/collection/earthcast/ignara.jpg"
+        "image": "/collection/earthcast/ignara.png"
       }
     ],
     "specifications": [
@@ -559,7 +559,7 @@
         "colorName": "Silver Grey",
         "cssVar": "--outline",
         "finish": "Refined surface texture",
-        "image": "/collection/earthcast/argenta.png"
+        "image": "/collection/earthcast/argenta.jpg"
       }
     ],
     "specifications": [
@@ -627,7 +627,7 @@
         "colorName": "Stone Finish",
         "cssVar": "--outline",
         "finish": "Refined texture",
-        "image": "/collection/earthcast/labirinto.png"
+        "image": "/collection/earthcast/labirinto.jpeg"
       }
     ],
     "specifications": [
@@ -661,7 +661,7 @@
         "colorName": "Soft Neutral",
         "cssVar": "--surface",
         "finish": "Smooth surface finish",
-        "image": "/collection/earthcast/lyora.png"
+        "image": "/collection/earthcast/lyora.jpeg"
       }
     ],
     "specifications": [
@@ -696,8 +696,16 @@
         "colorName": "Deep Black",
         "cssVar": "--on-surface",
         "finish": "",
-        "image": "/collection/earthcast/noxen.png"
-      }
+        "image": "/collection/earthcast/noxen-black.png"
+      },
+            {
+              "id": "noxen-white",
+              "label": "White",
+              "colorName": "White",
+              "cssVar": "--surface",
+              "finish": "",
+              "image": "/collection/earthcast/noxen-white.png"
+            }
     ],
     "specifications": [
       "Bold contemporary form",
@@ -764,7 +772,7 @@
         "colorName": "Soft Grey",
         "cssVar": "--surface",
         "finish": "",
-        "image": "/collection/earthcast/avana.jpg"
+        "image": "/collection/earthcast/avana.png"
       }
     ],
     "specifications": [
@@ -935,7 +943,7 @@
         "colorName": "Charcoal Black",
         "cssVar": "--on-surface",
         "finish": "Rustic textured finish",
-        "image": "/collection/earthcast/carbone.png"
+        "image": "/collection/earthcast/carbone.jpeg"
       }
     ],
     "specifications": [

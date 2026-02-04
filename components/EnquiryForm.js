@@ -83,16 +83,16 @@ export default function EnquiryForm({ prefilledProduct = "" }) {
         >
           Phone *
         </label>
-          <input
-            type="tel"
-            id="phone"
-            name="phone"
-            required
-            value={formData.phone}
-            onChange={handleChange}
-            className="w-full px-4 py-3 bg-[var(--surface)] border border-[var(--border)] rounded focus:outline-none focus:border-[var(--primary)] transition-colors duration-200 text-[var(--on-surface)]"
-            placeholder="+91 89393 28000"
-          />
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          required
+          value={formData.phone}
+          onChange={handleChange}
+          className="w-full px-4 py-3 bg-[var(--surface)] border border-[var(--border)] rounded focus:outline-none focus:border-[var(--primary)] transition-colors duration-200 text-[var(--on-surface)]"
+          placeholder="+91 89393 28000"
+        />
       </div>
 
       {/* Product */}

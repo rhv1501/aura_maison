@@ -133,7 +133,12 @@ export default function Contact({ searchParams }) {
 
           {/* Optional small note / logo lockup */}
           <div className="mt-6 flex items-center justify-center gap-3 opacity-80">
-            <Image src="/logo-mark.svg" alt="Aurē Maison" width={22} height={22} />
+            <Image
+              src="/logo-mark.svg"
+              alt="Aurē Maison"
+              width={22}
+              height={22}
+            />
             <p className="text-sm text-[var(--on-surface-variant)]">
               Visit us or send an enquiry — we’ll respond quickly.
             </p>

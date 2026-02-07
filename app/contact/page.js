@@ -9,8 +9,10 @@ const EnquiryForm = dynamic(() => import("@/components/EnquiryForm"), {
   ),
 });
 
-export default function Contact({ searchParams }) {
-  const productParam = searchParams?.product ?? "";
+export default async function Contact({ searchParams }) {
+  const { product } = await searchParams;
+  // const productParam = (await searchParams?.product) ?? "";
+  const productParam = typeof product === "string" ? product : "";
 
   const contactPhoneDisplay = "+91-6369632489";
   const contactPhoneHref = "tel:+916369632489";
@@ -133,12 +135,7 @@ export default function Contact({ searchParams }) {
 
           {/* Optional small note / logo lockup */}
           <div className="mt-6 flex items-center justify-center gap-3 opacity-80">
-            <Image
-              src="/full.png"
-              alt="Aurē Maison"
-              width={22}
-              height={22}
-            />
+            <Image src="/full.png" alt="Aurē Maison" width={22} height={22} />
             <p className="text-sm text-[var(--on-surface-variant)]">
               Visit us or send an enquiry — we’ll respond quickly.
             </p>

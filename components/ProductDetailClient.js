@@ -33,12 +33,12 @@ function Dropdown({ title, items }) {
 export default function ProductDetailClient({ product }) {
   const sizes = useMemo(
     () => (Array.isArray(product?.sizes) ? product.sizes : []),
-    [product]
+    [product],
   );
 
   const variants = useMemo(
     () => (Array.isArray(product?.variants) ? product.variants : []),
-    [product]
+    [product],
   );
 
   const [selectedSize, setSelectedSize] = useState(sizes[0] ?? "");
@@ -52,11 +52,6 @@ export default function ProductDetailClient({ product }) {
   return (
     <main className="bg-[var(--background)] text-[var(--on-surface)] px-4 pb-24">
       <div className="max-w-md mx-auto">
-        {/* Breadcrumb */}
-        <p className="text-xs my-4 opacity-70">
-          Home → {product?.collection ?? ""} → {product?.name ?? ""}
-        </p>
-
         {/* Image */}
         <div className="relative w-full aspect-[4/5] bg-[var(--surface)] mb-6">
           <Image
@@ -133,11 +128,11 @@ export default function ProductDetailClient({ product }) {
         {/* CTA */}
         <Link
           href={`/contact?product=${encodeURIComponent(
-            product?.name ?? ""
+            product?.name ?? "",
           )}&size=${encodeURIComponent(
-            selectedSize
+            selectedSize,
           )}&variant=${encodeURIComponent(
-            selectedVariantId
+            selectedVariantId,
           )}&color=${encodeURIComponent(selectedColorName)}`}
           className="block w-full text-center mt-10 py-4 border border-[var(--primary)] font-medium"
         >

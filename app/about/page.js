@@ -53,7 +53,6 @@ export default function AboutPage() {
             />
 
             <div>
-              <p className="text-sm mb-2 opacity-70">Home → About Us</p>
               <h2 className="text-4xl font-serif mb-6">A Quiet Beginning</h2>
               <p className="text-lg leading-relaxed">
                 Founded on <strong>November 2, 2025</strong>, Aura Maison was
@@ -206,9 +205,6 @@ export default function AboutPage() {
             <div className="grid grid-cols-12 gap-10 items-start">
               {/* Sticky narrative rail */}
               <aside className="col-span-4 sticky top-24">
-                <p className="text-xs tracking-[0.22em] uppercase opacity-70 mb-4">
-                  Home → About Us
-                </p>
                 <h1 className="text-5xl font-serif leading-tight mb-6">
                   Aura Maison
                 </h1>

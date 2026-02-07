@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import dynamic from "next/dynamic";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 const Navbar = dynamic(() => import("@/components/Navbar"), {
   loading: () => (
@@ -32,7 +33,14 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar />
-        <main className="min-h-screen">{children}</main>
+        <div className="min-h-screen">
+          <div className="border-b border-[var(--border)] bg-[var(--surface)]">
+            <div className="max-w-7xl mx-auto px-6 py-3">
+              <Breadcrumbs />
+            </div>
+          </div>
+          {children}
+        </div>
         <Footer />
       </body>
     </html>

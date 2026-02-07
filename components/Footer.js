@@ -73,7 +73,7 @@ export default function Footer() {
               First Floor, Ram Apartments, A7 & 8, Raja Annamaalai Rd,
               Purasaivakkam, Chennai, Tamil Nadu, 600084
             </p>
-            <p>📞 +91-8939328000</p>
+            <p>📞 +91-6369632489</p>
           </div>
 
           <hr className="border-[var(--border)]" />

@@ -12,8 +12,8 @@ const EnquiryForm = dynamic(() => import("@/components/EnquiryForm"), {
 export default function Contact({ searchParams }) {
   const productParam = searchParams?.product ?? "";
 
-  const contactPhoneDisplay = "+91-8939328000";
-  const contactPhoneHref = "tel:+918939328000";
+  const contactPhoneDisplay = "+91-6369632489";
+  const contactPhoneHref = "tel:+916369632489";
   const contactEmail = "info@hocc.in";
   const contactAddress =
     "First Floor, Ram Apartments, A7 & 8, Raja Annamaalai Rd, Purasaivakkam, Chennai, Tamil Nadu, 600084";

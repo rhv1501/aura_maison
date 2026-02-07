@@ -134,7 +134,7 @@ export default function Contact({ searchParams }) {
           {/* Optional small note / logo lockup */}
           <div className="mt-6 flex items-center justify-center gap-3 opacity-80">
             <Image
-              src="/logo-mark.svg"
+              src="/full.png"
               alt="Aurē Maison"
               width={22}
               height={22}

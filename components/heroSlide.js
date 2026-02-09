@@ -10,9 +10,6 @@ export default function HeroSlider() {
   const slides = useMemo(
     () => [
       {
-        type: "brand",
-      },
-      {
         image: "/1.jpeg",
         subtitle: "Where form meets calm, and spaces breathe.",
         title: "Aure Maison",
@@ -54,19 +51,6 @@ export default function HeroSlider() {
             i === index ? "opacity-100 z-10" : "opacity-0 z-0"
           }`}
         >
-          {/* Brand Slide */}
-          {slide.type === "brand" && (
-            <div className="flex flex-col items-center justify-center h-full bg-[var(--background)] text-[var(--primary)]">
-              <Image
-                src="/full.png"
-                alt="Aura Maison"
-                fill
-                sizes="360px"
-                className="object-contain origin-center"
-              />
-            </div>
-          )}
-
           {/* Image Slides */}
           {slide.image && (
             <>
@@ -75,7 +59,7 @@ export default function HeroSlider() {
                 src={slide.image}
                 alt=""
                 fill
-                priority={i === 1}
+                priority={i === 0}
                 sizes="100vw"
                 className="object-cover scale-110 blur-md opacity-70"
               />

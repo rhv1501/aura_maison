@@ -223,7 +223,7 @@ export default function Footer() {
                 alt="Aura Maison"
                 fill
                 sizes="1000px"
-                className="object-contain scale-[2.6] origin-center"
+                className="object-contain scale-[2.0] origin-center"
               />
             </div>
           </div>

@@ -219,11 +219,11 @@ export default function Footer() {
           <div className="px-6 pb-8 flex justify-center">
             <div className="relative h-20 w-[360px] overflow-hidden">
               <Image
-                src="/full.png"
+                src="/write.png"
                 alt="Aura Maison"
                 fill
                 sizes="1000px"
-                className="object-contain scale-[2.0] origin-center"
+                className="object-contain origin-center"
               />
             </div>
           </div>

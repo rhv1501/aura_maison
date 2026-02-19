@@ -21,7 +21,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Aura Maison - Premium Planters",
+  title: "Auré Maison - Premium Planters",
   description:
     "Discover premium planters that blend nature, design, and balance for your living spaces.",
 };

@@ -54,10 +54,10 @@ export default function Footer() {
 
           {/* About */}
           <div>
-            <h4 className="font-medium mb-2">About</h4>
+            <h4 className="font-medium mb-2">Our Story</h4>
             <ul className="space-y-1">
               <li>
-                <Link href="/about">Our Story</Link>
+                <Link href="/about">About Us</Link>
               </li>
               <li>
                 <Link href="/contact">Contact Us</Link>
@@ -71,7 +71,7 @@ export default function Footer() {
           <div className="space-y-3 text-sm">
             <p>
               First Floor, Ram Apartments, A7 & 8, Raja Annamaalai Rd,
-              Purasaivakkam, Chennai, Tamil Nadu, 600084
+              Purasaivakkam, Chennai, TamilNadu, 600084
             </p>
             <p>📞 +91-6369632489</p>
           </div>
@@ -183,10 +183,10 @@ export default function Footer() {
             <div className="col-span-4 pl-10 border-l border-[var(--border)]">
               <div className="space-y-10">
                 <div>
-                  <h4 className="font-medium mb-3">About</h4>
+                  <h4 className="font-medium mb-3">Our Story</h4>
                   <ul className="space-y-2 text-sm">
                     <li>
-                      <Link href="/about">Our Story</Link>
+                      <Link href="/about">About Us</Link>
                     </li>
                     <li>
                       <Link href="/contact">Contact Us</Link>
@@ -197,7 +197,7 @@ export default function Footer() {
                 <div className="pt-10 border-t border-[var(--border)]">
                   <p className="text-sm leading-relaxed">
                     First Floor, Ram Apartments, A7 & 8, Raja Annamaalai Rd,
-                    Purasaivakkam, Chennai, Tamil Nadu, 600084
+                    Purasaivakkam, Chennai, TamilNadu, 600084
                   </p>
                   <p className="text-sm mt-3">📞 +91-6369632489</p>
                 </div>

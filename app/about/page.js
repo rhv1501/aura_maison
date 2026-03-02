@@ -1,8 +1,8 @@
 import Image from "next/image";
 
 export default function AboutPage() {
-  const contactPhoneDisplay = "+91-8939328000";
-  const contactPhoneHref = "tel:+918939328000";
+  const contactPhoneDisplay = "+91-6369632489";
+  const contactPhoneHref = "tel:+916369632489";
   const contactEmail = "info@hocc.in";
   const contactAddress =
     "First Floor, Ram Apartments, A7 & 8, Raja Annamaalai Rd, Purasaivakkam, Chennai, Tamil Nadu, 600084";
@@ -19,7 +19,7 @@ export default function AboutPage() {
         <section className="bg-[var(--surface)] px-6 py-20">
           <div className="max-w-6xl mx-auto grid gap-12">
             <Image
-              src="/collection/earthcast/noxen.png"
+              src="/collection/indoor/card.jpeg"
               alt="Sculptural planters"
               width={1200}
               height={800}
@@ -55,7 +55,7 @@ export default function AboutPage() {
             <div>
               <h2 className="text-4xl font-serif mb-6">A Quiet Beginning</h2>
               <p className="text-lg leading-relaxed">
-                Founded on <strong>November 2, 2025</strong>, Aura Maison was
+                Founded on <strong>November 2, 2025</strong>, Aure Maison was
                 created with a simple intention — to curate décor objects that
                 feel considered, enduring, and quietly luxurious.
               </p>
@@ -76,7 +76,7 @@ export default function AboutPage() {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-serif mb-6">Designed to Belong</h2>
             <p className="text-lg leading-relaxed mb-8">
-              Aura Maison pieces are made for modern homes, open spaces, and
+              Aure Maison pieces are made for modern homes, open spaces, and
               thoughtful interiors. Placed indoors or outdoors, they create a
               sense of calm, character, and intention.
             </p>
@@ -107,7 +107,7 @@ export default function AboutPage() {
             <h2 className="text-4xl font-serif mb-8">Design Philosophy</h2>
 
             <p className="text-lg leading-relaxed mb-6">
-              At Aura Maison, we believe elegance lives
+              At Aure Maison, we believe elegance lives
               <br />
               <strong>in restraint.</strong>
               <br />
@@ -171,7 +171,7 @@ export default function AboutPage() {
               <div className="mt-6 overflow-hidden rounded-2xl border border-[var(--border)] bg-white/40">
                 <div className="relative w-full aspect-[4/3]">
                   <iframe
-                    title="Aura Maison location"
+                    title="Aure Maison location"
                     src={mapSrc}
                     className="absolute inset-0 h-full w-full"
                     loading="lazy"
@@ -191,7 +191,7 @@ export default function AboutPage() {
           {/* Soft backdrop */}
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
             <Image
-              src="/collection/earthcast/noxen.png"
+              src="/collection/indoor/card.jpeg"
               alt=""
               fill
               unoptimized
@@ -206,7 +206,7 @@ export default function AboutPage() {
               {/* Sticky narrative rail */}
               <aside className="col-span-4 sticky top-24">
                 <h1 className="text-5xl font-serif leading-tight mb-6">
-                  Aura Maison
+                  Aure Maison
                 </h1>
                 <p className="text-lg leading-relaxed max-w-sm">
                   Each piece is selected not to follow trends, but to belong
@@ -242,7 +242,7 @@ export default function AboutPage() {
                   <div className="col-span-7">
                     <div className="relative aspect-[4/5] w-full overflow-hidden rounded-3xl border border-[var(--border)] bg-black/5 shadow-2xl">
                       <Image
-                        src="/collection/earthcast/noxen.png"
+                        src="/collection/indoor/card.jpeg"
                         alt="Sculptural planters"
                         fill
                         unoptimized
@@ -332,7 +332,7 @@ export default function AboutPage() {
                       A Quiet Beginning
                     </h2>
                     <p className="text-lg leading-relaxed">
-                      Founded on <strong>November 2, 2025</strong>, Aura Maison
+                      Founded on <strong>November 2, 2025</strong>, Aure Maison
                       was created with a simple intention — to curate décor
                       objects that feel considered, enduring, and quietly
                       luxurious.
@@ -349,7 +349,7 @@ export default function AboutPage() {
                     Designed to Belong
                   </h2>
                   <p className="text-lg leading-relaxed mb-8 max-w-3xl">
-                    Aura Maison pieces are made for modern homes, open spaces,
+                    Aure Maison pieces are made for modern homes, open spaces,
                     and thoughtful interiors. Placed indoors or outdoors, they
                     create a sense of calm, character, and intention.
                   </p>
@@ -368,7 +368,7 @@ export default function AboutPage() {
                       Design Philosophy
                     </h2>
                     <p className="text-lg leading-relaxed mb-6">
-                      At Aura Maison, we believe elegance lives
+                      At Aure Maison, we believe elegance lives
                       <br />
                       <strong>in restraint.</strong>
                       <br />
@@ -457,7 +457,7 @@ export default function AboutPage() {
                         <div className="overflow-hidden rounded-3xl border border-[var(--border)] bg-white/40">
                           <div className="relative w-full aspect-[16/9]">
                             <iframe
-                              title="Aura Maison location"
+                              title="Aure Maison location"
                               src={mapSrc}
                               className="absolute inset-0 h-full w-full"
                               loading="lazy"
